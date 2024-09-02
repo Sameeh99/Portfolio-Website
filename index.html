@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/icons8-circled-s-80.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/icons8-circled-s-80.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Sameeh Alqatabi | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>SAMEEH ALQATABI</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <p>  </p>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about" >
+      <img
+        src="assets/images/Programmer-cuate.svg"
+        alt="Sam"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I’m a junior majoring in computer science at Southern New Hampshire University. Seeking a career opportunity in Software Engineer. Fluent in Python, Java, and C++. I’m currently learning JavaScript and SQL. Driven and self-motivated, and therefore effective at completing tasks with minimal supervision. Confident leader and enthusiastic communicator.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I’m a junior majoring in computer science at Southern New Hampshire University. 
+        I’m excited to gain hands-on work experience to complement my coursework and kick-start my software engineering career. 
+        My skills are problem-solving abilities and big-picture mindset to develop and improve testing technologies. 
+        My classes, work experience, and extracurricular activities make me an ideal candidate.
+      </p>
+      <p>
+        Coursework: After completing courses in software development methods, programming languages, network systems, and embedded system design, my major GPA is 3.5.
+      </p>
+      <p>
+        My attached <a href="assets/resume/Computer Science Resume .pdf">resume</a> expands on my skill set and accomplishments.
+      </p>
+      <p>
+        My <a href="assets/app/CarbCounting.apk">app</a> 
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-python.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-java.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-c++.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/flappy.png"
+            alt="flappy-bird"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Flappy Bird</h3>
+          <p class="project-details">
+            Create Original Flappy Bird With JavaScript
+Flappy Bird was a side-scrolling mobile game featuring 2D retro style graphics. The objective was to direct a flying bird, named "Faby", who moves continuously to the right, between sets of Mario-like pipes. If the player touches the pipes, they lose.
+          </p>
+          <a href="assets/flappybird/index.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/tic.png"
+            alt="tic-tac-toe"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tic Tac Toe</h3>
+          <p class="project-details">
+            2-player Tic-Tac-Toe game using JavaScript. Player-1 starts playing the game and both the players make their moves in consecutive turns. The player who makes a straight 3-block chain wins the game.
+          </p>
+          <a href="assets/TicTacToe/index.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/weather.png"
+            alt="weather-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Weather App</h3>
+          <p class="project-details">
+            Weather Application in JavaScript using Open Weather Map API. Using this API, we can get weather data for each coordinate.Weather is a huge part of our daily lives. As such, there is always a need for websites and mobile apps to report on it. Users will want to check out anything from the current conditions outside their house to the forecast for their favorite vacation spot.
+          </p>
+          <a href="assets/Weather/index.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mwkykejr" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      </a>
+      <a href="https://www.linkedin.com/in/sameehalqatabi" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Sameeh99" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        BUILT WITH &#128514; BY
+        <a href="#" target="_blank"
+          >SAMEEH ALQATABI</a
+        >
+      </p>
+      <p class="copy"><a href="https://storyset.com/web">Web illustrations by Storyset</a></p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
